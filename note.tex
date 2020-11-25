@@ -1,0 +1,52 @@
+\documentclass[usenames,dvipsnames]{cernatsnote}    % Specifies the document style.
+\DeclareUnicodeCharacter{3B2}{$\beta$}  % replaces unicode beta with latex beta (might sneak in in bbl)
+
+\input{userdef.tex}
+% Meta-Data %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+\documentlabel{CERN-DILLY-NOTE-2020-01-10}
+\date{January 2020}
+\email{}
+\title{Triplet $b_6$ errors from FiDeL and WISE}
+\author{J. Dilly, R. Tom\'as}
+
+% logbook: 
+% Document Begin %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+\keywords{WISE, FiDeL, b6, Triplets, LHC, ID-Cards}
+
+\begin{document}
+\maketitle 
+
+\begin{abstract}
+    Compares $b_6$ for the LHC-Triplets as measured given by the FiDeL report, 
+    the ID-Cards and from the WISE tables.
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+% Motivation %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{motivation}
+
+% Comparison %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\FloatBarrier
+\include{comparison}
+
+% Conclusion %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% \FloatBarrier
+% \include{conclusion}
+
+% Bibliography %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\FloatBarrier
+
+\bibliographystyle{siamurl}
+\bibliography{library_jdilly.bib}
+% \bibliography{/home/jdilly/Zotero_Library.bib}
+\clearpage
+
+% Appendix %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \FloatBarrier
+% \include{appendix}
+
+\end{document}
